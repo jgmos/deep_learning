@@ -1,0 +1,1158 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... done
+
+## Package Plan ##
+
+  environment location: /home/joaogmattos/anaconda3/envs/pytorch_env
+
+  added / updated specs:
+    - pytorch
+    - pytorch-forecasting
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    alembic-1.13.1             |     pyhd8ed1ab_1         155 KB  conda-forge
+    bottleneck-1.3.7           |  py312ha883a20_0         140 KB
+    brotli-1.0.9               |       h9c3ff4c_4         389 KB  conda-forge
+    ca-certificates-2024.2.2   |       hbcca054_0         152 KB  conda-forge
+    certifi-2024.2.2           |     pyhd8ed1ab_0         157 KB  conda-forge
+    cloudpickle-3.0.0          |     pyhd8ed1ab_0          24 KB  conda-forge
+    colorama-0.4.6             |     pyhd8ed1ab_0          25 KB  conda-forge
+    colorlog-5.0.1             |  py312h06a4308_1          18 KB
+    contourpy-1.2.0            |  py312hdb19cb5_0         238 KB
+    cycler-0.12.1              |     pyhd8ed1ab_0          13 KB  conda-forge
+    fsspec-2024.3.1            |     pyhca7485f_0         126 KB  conda-forge
+    greenlet-3.0.1             |  py312h6a678d5_0         231 KB
+    importlib-metadata-7.1.0   |     pyha770c72_0          26 KB  conda-forge
+    importlib_resources-6.4.0  |     pyhd8ed1ab_0          32 KB  conda-forge
+    joblib-1.4.2               |     pyhd8ed1ab_0         215 KB  conda-forge
+    kiwisolver-1.4.4           |  py312h6a678d5_0          68 KB
+    libgfortran-ng-13.2.0      |       h69a702a_0          23 KB  conda-forge
+    libgfortran5-13.2.0        |       ha4646dd_0         1.4 MB  conda-forge
+    lightning-utilities-0.11.2 |     pyhd8ed1ab_0          27 KB  conda-forge
+    mako-1.3.5                 |     pyhd8ed1ab_0          66 KB  conda-forge
+    matplotlib-base-3.8.4      |  py312h526ad5a_0         7.6 MB
+    munkres-1.1.4              |     pyh9f0ad1d_0          12 KB  conda-forge
+    numexpr-2.8.7              |  py312hf827012_0         149 KB
+    optuna-3.6.0               |     pyhd8ed1ab_0         218 KB  conda-forge
+    pandas-2.2.1               |  py312h526ad5a_0        15.4 MB
+    patsy-0.5.6                |     pyhd8ed1ab_0         183 KB  conda-forge
+    pretty_errors-1.2.25       |     pyhd8ed1ab_0          18 KB  conda-forge
+    prettytable-0.7.2          |             py_3          15 KB  conda-forge
+    pybind11-abi-5             |       hd3eb1b0_0          14 KB
+    pyparsing-3.0.9            |     pyhd8ed1ab_0          79 KB  conda-forge
+    python-tzdata-2024.1       |     pyhd8ed1ab_0         141 KB  conda-forge
+    pytorch-forecasting-0.10.2 |     pyhd8ed1ab_0          97 KB  conda-forge
+    pytorch-lightning-2.2.2    |     pyhd8ed1ab_0         429 KB  conda-forge
+    scikit-learn-1.4.2         |  py312h526ad5a_1        10.1 MB
+    scipy-1.13.0               |  py312hc5e2394_0        23.7 MB
+    sqlalchemy-2.0.25          |  py312h5eee18b_0         3.8 MB
+    statsmodels-0.14.0         |  py312ha883a20_0        10.6 MB
+    threadpoolctl-3.5.0        |     pyhc1e730c_0          23 KB  conda-forge
+    torchmetrics-1.4.0         |     pyhd8ed1ab_0         343 KB  conda-forge
+    tqdm-4.66.4                |     pyhd8ed1ab_0          87 KB  conda-forge
+    zipp-3.17.0                |     pyhd8ed1ab_0          19 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        76.4 MB
+
+The following NEW packages will be INSTALLED:
+
+  alembic            conda-forge/noarch::alembic-1.13.1-pyhd8ed1ab_1 
+  bottleneck         pkgs/main/linux-64::bottleneck-1.3.7-py312ha883a20_0 
+  brotli             conda-forge/linux-64::brotli-1.0.9-h9c3ff4c_4 
+  cloudpickle        conda-forge/noarch::cloudpickle-3.0.0-pyhd8ed1ab_0 
+  colorama           conda-forge/noarch::colorama-0.4.6-pyhd8ed1ab_0 
+  colorlog           pkgs/main/linux-64::colorlog-5.0.1-py312h06a4308_1 
+  contourpy          pkgs/main/linux-64::contourpy-1.2.0-py312hdb19cb5_0 
+  cycler             conda-forge/noarch::cycler-0.12.1-pyhd8ed1ab_0 
+  fonttools          pkgs/main/noarch::fonttools-4.25.0-pyhd3eb1b0_0 
+  fsspec             conda-forge/noarch::fsspec-2024.3.1-pyhca7485f_0 
+  greenlet           pkgs/main/linux-64::greenlet-3.0.1-py312h6a678d5_0 
+  importlib-metadata conda-forge/noarch::importlib-metadata-7.1.0-pyha770c72_0 
+  importlib_resourc~ conda-forge/noarch::importlib_resources-6.4.0-pyhd8ed1ab_0 
+  joblib             conda-forge/noarch::joblib-1.4.2-pyhd8ed1ab_0 
+  kiwisolver         pkgs/main/linux-64::kiwisolver-1.4.4-py312h6a678d5_0 
+  libgfortran-ng     conda-forge/linux-64::libgfortran-ng-13.2.0-h69a702a_0 
+  libgfortran5       conda-forge/linux-64::libgfortran5-13.2.0-ha4646dd_0 
+  lightning-utiliti~ conda-forge/noarch::lightning-utilities-0.11.2-pyhd8ed1ab_0 
+  mako               conda-forge/noarch::mako-1.3.5-pyhd8ed1ab_0 
+  matplotlib-base    pkgs/main/linux-64::matplotlib-base-3.8.4-py312h526ad5a_0 
+  munkres            conda-forge/noarch::munkres-1.1.4-pyh9f0ad1d_0 
+  numexpr            pkgs/main/linux-64::numexpr-2.8.7-py312hf827012_0 
+  optuna             conda-forge/noarch::optuna-3.6.0-pyhd8ed1ab_0 
+  pandas             pkgs/main/linux-64::pandas-2.2.1-py312h526ad5a_0 
+  patsy              conda-forge/noarch::patsy-0.5.6-pyhd8ed1ab_0 
+  pretty_errors      conda-forge/noarch::pretty_errors-1.2.25-pyhd8ed1ab_0 
+  prettytable        conda-forge/noarch::prettytable-0.7.2-py_3 
+  pybind11-abi       pkgs/main/noarch::pybind11-abi-5-hd3eb1b0_0 
+  pyparsing          conda-forge/noarch::pyparsing-3.0.9-pyhd8ed1ab_0 
+  python-tzdata      conda-forge/noarch::python-tzdata-2024.1-pyhd8ed1ab_0 
+  pytorch-forecasti~ conda-forge/noarch::pytorch-forecasting-0.10.2-pyhd8ed1ab_0 
+  pytorch-lightning  conda-forge/noarch::pytorch-lightning-2.2.2-pyhd8ed1ab_0 
+  scikit-learn       pkgs/main/linux-64::scikit-learn-1.4.2-py312h526ad5a_1 
+  scipy              pkgs/main/linux-64::scipy-1.13.0-py312hc5e2394_0 
+  sqlalchemy         pkgs/main/linux-64::sqlalchemy-2.0.25-py312h5eee18b_0 
+  statsmodels        pkgs/main/linux-64::statsmodels-0.14.0-py312ha883a20_0 
+  threadpoolctl      conda-forge/noarch::threadpoolctl-3.5.0-pyhc1e730c_0 
+  torchmetrics       conda-forge/noarch::torchmetrics-1.4.0-pyhd8ed1ab_0 
+  tqdm               conda-forge/noarch::tqdm-4.66.4-pyhd8ed1ab_0 
+  zipp               conda-forge/noarch::zipp-3.17.0-pyhd8ed1ab_0 
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  ca-certificates    pkgs/main::ca-certificates-2024.3.11-~ --> conda-forge::ca-certificates-2024.2.2-hbcca054_0 
+  certifi            pkgs/main/linux-64::certifi-2024.2.2-~ --> conda-forge/noarch::certifi-2024.2.2-pyhd8ed1ab_0 
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+cloudpickle-3.0.0    | 24 KB     |            |   0% 
+matplotlib-base-3.8. | 7.6 MB    |            |   0% [A
+
+pyparsing-3.0.9      | 79 KB     |            |   0% [A[A
+
+
+alembic-1.13.1       | 155 KB    |            |   0% [A[A[A
+
+
+
+greenlet-3.0.1       | 231 KB    |            |   0% [A[A[A[A
+
+
+
+
+numexpr-2.8.7        | 149 KB    |            |   0% [A[A[A[A[A
+
+
+
+
+
+prettytable-0.7.2    | 15 KB     |            |   0% [A[A[A[A[A[A
+
+
+
+
+
+
+libgfortran-ng-13.2. | 23 KB     |            |   0% [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+tqdm-4.66.4          | 87 KB     |            |   0% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+bottleneck-1.3.7     | 140 KB    |            |   0% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+optuna-3.6.0         | 218 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+torchmetrics-1.4.0   | 343 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+pybind11-abi-5       | 14 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+joblib-1.4.2         | 215 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+brotli-1.0.9         | 389 KB    |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lightning-utilities- | 27 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+colorlog-5.0.1       | 18 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+colorama-0.4.6       | 25 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cycler-0.12.1        | 13 KB     |            |   0% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+pyparsing-3.0.9      | 79 KB     | ##         |  20% [A[A
+
+
+alembic-1.13.1       | 155 KB    | #          |  10% [A[A[A
+
+
+
+greenlet-3.0.1       | 231 KB    | 6          |   7% [A[A[A[A
+
+pyparsing-3.0.9      | 79 KB     | ########## | 100% [A[A
+
+
+alembic-1.13.1       | 155 KB    | ########## | 100% [A[A[A
+
+
+alembic-1.13.1       | 155 KB    | ########## | 100% [A[A[A
+matplotlib-base-3.8. | 7.6 MB    |            |   0% [Acloudpickle-3.0.0    | 24 KB     | ######6    |  66% cloudpickle-3.0.0    | 24 KB     | ########## | 100% 
+
+
+
+greenlet-3.0.1       | 231 KB    | ########## | 100% [A[A[A[A
+
+
+
+greenlet-3.0.1       | 231 KB    | ########## | 100% [A[A[A[A
+
+
+
+
+
+prettytable-0.7.2    | 15 KB     | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+numexpr-2.8.7        | 149 KB    | #          |  11% [A[A[A[A[A
+
+
+
+
+
+prettytable-0.7.2    | 15 KB     | ########## | 100% [A[A[A[A[A[A
+
+
+
+
+
+
+libgfortran-ng-13.2. | 23 KB     | #######    |  70% [A[A[A[A[A[A[A
+matplotlib-base-3.8. | 7.6 MB    | 2          |   2% [A
+
+
+
+
+
+
+libgfortran-ng-13.2. | 23 KB     | ########## | 100% [A[A[A[A[A[A[A
+
+
+
+
+numexpr-2.8.7        | 149 KB    | ########## | 100% [A[A[A[A[A
+matplotlib-base-3.8. | 7.6 MB    | 6          |   6% [A
+
+
+
+
+
+
+
+
+
+optuna-3.6.0         | 218 KB    | 7          |   7% [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+torchmetrics-1.4.0   | 343 KB    | 4          |   5% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+tqdm-4.66.4          | 87 KB     | #8         |  18% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+optuna-3.6.0         | 218 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A
+matplotlib-base-3.8. | 7.6 MB    | #          |  11% [A
+
+
+
+
+
+
+
+
+
+
+torchmetrics-1.4.0   | 343 KB    | ######     |  61% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+pybind11-abi-5       | 14 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+pybind11-abi-5       | 14 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+tqdm-4.66.4          | 87 KB     | ########## | 100% [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+tqdm-4.66.4          | 87 KB     | ########## | 100% [A[A[A[A[A[A[A[A
+matplotlib-base-3.8. | 7.6 MB    | #7         |  17% [A
+
+
+
+
+
+
+
+
+
+
+torchmetrics-1.4.0   | 343 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+brotli-1.0.9         | 389 KB    | 4          |   4% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+joblib-1.4.2         | 215 KB    | 7          |   7% [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+bottleneck-1.3.7     | 140 KB    | #1         |  11% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+joblib-1.4.2         | 215 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A
+matplotlib-base-3.8. | 7.6 MB    | ###        |  31% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lightning-utilities- | 27 KB     | ######     |  60% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+lightning-utilities- | 27 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+brotli-1.0.9         | 389 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+brotli-1.0.9         | 389 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+bottleneck-1.3.7     | 140 KB    | ####5      |  46% [A[A[A[A[A[A[A[A[A
+matplotlib-base-3.8. | 7.6 MB    | ###8       |  38% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+colorama-0.4.6       | 25 KB     | ######5    |  65% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+colorama-0.4.6       | 25 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cycler-0.12.1        | 13 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cycler-0.12.1        | 13 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+bottleneck-1.3.7     | 140 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+bottleneck-1.3.7     | 140 KB    | ########## | 100% [A[A[A[A[A[A[A[A[A
+matplotlib-base-3.8. | 7.6 MB    | ####5      |  45% [A
+matplotlib-base-3.8. | 7.6 MB    | #####2     |  52% [A
+matplotlib-base-3.8. | 7.6 MB    | ######1    |  62% [A
+matplotlib-base-3.8. | 7.6 MB    | #######4   |  74% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+colorlog-5.0.1       | 18 KB     | #########1 |  91% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+colorlog-5.0.1       | 18 KB     | ########## | 100% [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+matplotlib-base-3.8. | 7.6 MB    | ########7  |  88% [A
+matplotlib-base-3.8. | 7.6 MB    | #########9 | 100% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ... (more hidden) ...[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+matplotlib-base-3.8. | 7.6 MB    | ########## | 100% [A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A                                                     
+                                                     [A
+
+                                                     [A[A
+
+
+                                                     [A[A[A
+
+
+
+                                                     [A[A[A[A
+
+
+
+
+                                                     [A[A[A[A[A
+
+
+
+
+
+                                                     [A[A[A[A[A[A
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+
+
+[A[A[A
+
+
+
+[A[A[A[A
+
+
+
+
+[A[A[A[A[A
+
+
+
+
+
+[A[A[A[A[A[A
+
+
+
+
+
+
+[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A
+[A
+
+[A[A
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
